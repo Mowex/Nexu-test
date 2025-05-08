@@ -5,7 +5,7 @@ from src.seed import seed
 from contextlib import asynccontextmanager
 
 @asynccontextmanager
-def life_span(app:FastAPI):
+async def life_span(app:FastAPI):
     print(f"server is starting... ")
     create_db_and_tables()
     seed()
