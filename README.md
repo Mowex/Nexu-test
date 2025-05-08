@@ -18,13 +18,13 @@ python -m venv venv
 venv\Scripts\activate
 
 # On macOS/Linux
-source venv/bin/activate
+source .\venv\bin\activate
 
 # Install dependencies
 pip install -r requirements.txt
 
-# (Optional) Install the FastAPI CLI if you don't have it yet
-pip install fastapi[all]
+# Install the FastAPI CLI if you don't have it yet
+pip install fastapi[standard]
 
 # Run the application from the root folder
 fastapi dev main.py
