@@ -1,2 +1,4 @@
 venv
 *.pyc
+nexu.db
+nexu_test.db

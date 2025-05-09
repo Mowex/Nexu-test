@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 class ModelBase(BaseModel):
-    name: str
+    name: str | None = None
     average_price: int
 
 class ModelCreate(ModelBase):
